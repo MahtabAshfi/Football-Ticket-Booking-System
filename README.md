@@ -15,7 +15,7 @@ The schema consists of three core tables connected through foreign key relations
 - **Bookings**: Acts as the junction, where each row maps exactly one user to one match for a specific seat.
 
 
-> A full visual ERD is available here: **[]**
+> A full visual ERD is available here: **[https://drive.google.com/file/d/1rp9d4z0lX-fk_RB7UiHkzzmU_DZJ_ktv/view?usp=sharing]**
 
 ## Schema Design
 
