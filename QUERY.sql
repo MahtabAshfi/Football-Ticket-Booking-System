@@ -43,7 +43,7 @@ CREATE TABLE Bookings (
 );
 
 -- =========================================================================
--- DATA SEEDING: INSERT SAMPLE DATA INTO USERS
+-- DATA SEEDING: USERS
 -- =========================================================================
 INSERT INTO Users (user_id, full_name, email, role, phone_number) VALUES
 (1, 'Tanvir Rahman', 'tanvir@mail.com', 'Football Fan', '+8801711111111'),
@@ -52,7 +52,7 @@ INSERT INTO Users (user_id, full_name, email, role, phone_number) VALUES
 (4, 'Jannat Ara', 'jannat@mail.com', 'Football Fan', NULL);
 
 -- =========================================================================
--- DATA SEEDING: INSERT SAMPLE DATA INTO MATCHES
+-- DATA SEEDING: MATCHES
 -- =========================================================================
 INSERT INTO Matches (match_id, fixture, tournament_category, base_ticket_price, match_status) VALUES
 (101, 'Real Madrid vs Barcelona', 'Champions League', 150.00, 'Available'),
@@ -62,7 +62,7 @@ INSERT INTO Matches (match_id, fixture, tournament_category, base_ticket_price, 
 (105, 'Juventus vs Roma', 'Serie A', 80.00, 'Available');
 
 -- =========================================================================
--- DATA SEEDING: INSERT SAMPLE DATA INTO BOOKINGS
+-- DATA SEEDING: BOOKINGS
 -- =========================================================================
 INSERT INTO Bookings (booking_id, user_id, match_id, seat_number, payment_status, total_cost) VALUES
 (501, 1, 101, 'A-12', 'Confirmed', 150.00),
